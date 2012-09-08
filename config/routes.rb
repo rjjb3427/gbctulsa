@@ -12,6 +12,7 @@ Gbctulsa::Application.routes.draw do
 	match "about/bylaws/article-ii-purpose-and-covenant" => "about#bylaws_article_two"
 	match "about/bylaws/article-iii-membership" => "about#bylaws_article_three"
 	match "about/bylaws/article-iv-elders" => "about#bylaws_article_four"
+	match "about/bylaws/article-v-deacons" => "about#bylaws_article_five"
 
   get "ministries/index"
 	match "/ministries" => "ministries#index"
