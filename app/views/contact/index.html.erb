@@ -1,2 +1,28 @@
-<h1>Contact#index</h1>
-<p>Find me in app/views/contact/index.html.erb</p>
+<div class="row">
+<div class="span3">
+	<%= render "layouts/sidebar" %>
+</div>
+<div class="span9">
+	<div class="page-header">
+		<h1>Contact</h1>
+	</div>
+
+	<div id="wufoo-q7x4a9">
+	Fill out my <a href="http://paulstefanort.wufoo.com/forms/q7x4a9">online form</a>.
+	</div>
+	<script type="text/javascript">var q7x4a9;(function(d, t) {
+	var s = d.createElement(t), options = {
+	'userName':'paulstefanort', 
+	'formHash':'q7x4a9', 
+	'autoResize':true,
+	'height':'577',
+	'async':true,
+	'header':'show'};
+	s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'wufoo.com/scripts/embed/form.js';
+	s.onload = s.onreadystatechange = function() {
+	var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+	try { q7x4a9 = new WufooForm();q7x4a9.initialize(options);q7x4a9.display(); } catch (e) {}};
+	var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+	})(document, 'script');</script>
+</div>
+</div>
