@@ -9,6 +9,7 @@ Gbctulsa::Application.routes.draw do
 	get "about/doctrine"
 	match "about/bylaws" => "about#bylaws_preamble"
 	match "about/bylaws/article-i-name" => "about#bylaws_article_one"
+	match "about/bylaws/article-ii-purpose-and-covenant" => "about#bylaws_article_two"
 
   get "ministries/index"
 	match "/ministries" => "ministries#index"
