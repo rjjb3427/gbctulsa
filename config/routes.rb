@@ -1,8 +1,9 @@
 Gbctulsa::Application.routes.draw do
-  get "about/index"
-
   get "site/index"
 	match "/" => "site#index"
+
+  get "about/index"
+	match "/about" => "about#index"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
