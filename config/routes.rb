@@ -17,6 +17,7 @@ Gbctulsa::Application.routes.draw do
 	match "about/bylaws/article-vii-meetings" => "about#bylaws_article_seven"
 	match "about/bylaws/article-viii-amendments" => "about#bylaws_article_eight"
 	match "about/bylaws/article-ix-ordinances" => "about#bylaws_article_nine"
+	match "about/bylaws/article-x-ordination" => "about#bylaws_article_ten"
 
   get "ministries/index"
 	match "/ministries" => "ministries#index"
