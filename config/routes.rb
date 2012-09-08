@@ -1,6 +1,4 @@
 Gbctulsa::Application.routes.draw do
-  get "contact/index"
-
   get "site/index"
 	match "/" => "site#index"
 
@@ -15,6 +13,9 @@ Gbctulsa::Application.routes.draw do
 
   get "links/index"
 	match "/links" => "links#index"
+
+  get "contact/index"
+	match "/contact" => "contact#index"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
