@@ -1,4 +1,6 @@
 Gbctulsa::Application.routes.draw do
+  get "links/index"
+
   get "site/index"
 	match "/" => "site#index"
 
