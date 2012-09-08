@@ -21,6 +21,15 @@ Gbctulsa::Application.routes.draw do
 
   get "ministries/index"
 	match "/ministries" => "ministries#index"
+	match "ministries/biblical-counseling" => "ministries#biblical_counseling"
+	match "ministries/men-of-grace" => "ministries#men_of_grace"
+	match "ministries/women-of-grace" => "ministries#women_of_grace"
+	match "ministries/adult-bible-class" => "ministries#adult_bible_class"
+	match "ministries/youth-of-grace" => "ministries#youth_of_grace"
+	match "ministries/sunday-school" => "ministries#sunday_school"
+	match "ministries/well-versed-kids" => "ministries#well_versed_kids"
+	match "ministries/questions-of-grace" => "ministries#questions_of_grace"
+	match "ministries/homeschoolers-of-grace" => "ministries#homeschoolers_of_grace"
 
   get "sermons/index"
 	match "/sermons" => "sermons#index"
