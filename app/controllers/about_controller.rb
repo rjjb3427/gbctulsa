@@ -7,4 +7,8 @@ class AboutController < ApplicationController
 	def pastors
 		@section = "about"
 	end
+
+	def doctrine
+		@section = "about"
+	end
 end
