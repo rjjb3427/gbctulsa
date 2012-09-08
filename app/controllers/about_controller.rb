@@ -39,4 +39,8 @@ class AboutController < ApplicationController
 	def bylaws_article_six
 		@section = "about"
 	end
+
+	def bylaws_article_seven
+		@section = "about"
+	end
 end

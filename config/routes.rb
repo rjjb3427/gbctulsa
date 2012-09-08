@@ -14,6 +14,7 @@ Gbctulsa::Application.routes.draw do
 	match "about/bylaws/article-iv-elders" => "about#bylaws_article_four"
 	match "about/bylaws/article-v-deacons" => "about#bylaws_article_five"
 	match "about/bylaws/article-vi-corporate-officers" => "about#bylaws_article_six"
+	match "about/bylaws/article-vii-meetings" => "about#bylaws_article_seven"
 
   get "ministries/index"
 	match "/ministries" => "ministries#index"
