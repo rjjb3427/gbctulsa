@@ -40,3 +40,5 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'debugger'
+
+gem 'sermonaudio', :git => 'git://github.com/paulstefanort/sermonaudio.git'
