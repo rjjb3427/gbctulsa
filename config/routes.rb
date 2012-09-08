@@ -5,6 +5,8 @@ Gbctulsa::Application.routes.draw do
   get "about/index"
 	match "/about" => "about#index"
 
+	get "about/pastors"
+
   get "ministries/index"
 	match "/ministries" => "ministries#index"
 
