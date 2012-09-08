@@ -20,7 +20,13 @@
 	<div class="navbar navbar-fixed-top">
 		<div class="navbar-inner">
 			<div class="container">
+				<button type="button" class="btn btn-navbar" data-toggle="colapse" data-target=".nav-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
 				<a class="brand" href="/">Grace Bible Church</a>
+				<div class="nav-collabpse collapse">
 				<ul class="nav">
 					<li<% if (@section == "home") %> class="active"<% end %>><a href="/">Home</a></li>
 					<li<% if (@section == "about") %> class="active"<% end %>><a href="/about">About</a></li>
@@ -29,6 +35,7 @@
 					<li<% if (@section == "links") %> class="active"<% end %>><a href="/links">Links</a></li>
 					<li<% if (@section == "contact") %> class="active"<% end %>><a href="/contact">Contact</a></li>
 				</ul>
+				</div>
 			</div>
 		</div>
 	</div>
