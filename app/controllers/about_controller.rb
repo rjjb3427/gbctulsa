@@ -11,4 +11,8 @@ class AboutController < ApplicationController
 	def doctrine
 		@section = "about"
 	end
+
+	def bylaws_preamble
+		@section = "about"
+	end
 end
