@@ -16,6 +16,7 @@ Gbctulsa::Application.routes.draw do
 	match "about/bylaws/article-vi-corporate-officers" => "about#bylaws_article_six"
 	match "about/bylaws/article-vii-meetings" => "about#bylaws_article_seven"
 	match "about/bylaws/article-viii-amendments" => "about#bylaws_article_eight"
+	match "about/bylaws/article-ix-ordinances" => "about#bylaws_article_nine"
 
   get "ministries/index"
 	match "/ministries" => "ministries#index"
