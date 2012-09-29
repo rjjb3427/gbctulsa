@@ -6,10 +6,10 @@
 development:
   adapter: postgresql
 	encoding: unicode
-  database: gbctulsa
+  database: gbctulsa_development
   pool: 5
-	username: paul
-	password: gbctulsadata
+	username: gbctulsa
+	password: gbctulsa
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
@@ -19,8 +19,8 @@ test:
 	encoding: unicode
   database: gbctulsa_test
   pool: 5
-	username: paul
-	password: gbctulsadata
+	username: gbctulsa
+	password: gbctulsa
 
 #production:
 #  adapter: postgresql
