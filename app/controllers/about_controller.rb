@@ -4,6 +4,10 @@ class AboutController < ApplicationController
 		@section = "about"
   end
 
+	def leadership
+		@section =  "about"
+	end
+
 	def pastors
 		@section = "about"
 	end

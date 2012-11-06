@@ -5,6 +5,7 @@ Gbctulsa::Application.routes.draw do
   get "about/index"
 	match "/about" => "about#index"
 
+	get "about/leadership"
 	get "about/pastors"
 	get "about/doctrine"
 	match "about/bylaws" => "about#bylaws_preamble"
