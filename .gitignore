@@ -16,4 +16,4 @@
 
 # Finder and vim
 .DS_Store
-.swp
+*.swp
