@@ -6,7 +6,8 @@ Gbctulsa::Application.routes.draw do
 	match "/about" => "about#index"
 
 	get "about/leadership"
-	get "about/pastors"
+	get "about/elders"
+	match "/about/pastors" => redirect("/about/elders")
 	get "about/doctrine"
 	match "about/bylaws" => "about#bylaws_preamble"
 	match "about/bylaws/article-i-name" => "about#bylaws_article_one"

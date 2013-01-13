@@ -8,7 +8,7 @@ class AboutController < ApplicationController
 		@section =  "about"
 	end
 
-	def pastors
+	def elders
 		@section = "about"
 	end
 
